@@ -1,9 +1,16 @@
 import React from "react";
+import ReorderIcon from "@mui/icons-material/Reorder";
+import "./Header.css";
 
 const Header = () => {
   return (
     <>
-      <div>I am Header</div> 
+      <div className="header">
+        <div className="header__left">
+          <ReorderIcon></ReorderIcon>
+          <h1>tarun</h1>
+        </div>
+      </div>
     </>
   );
 };
