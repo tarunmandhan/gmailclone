@@ -35,3 +35,13 @@
   font-size: 15px;
   letter-spacing: 1px;
 }
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__right .MuiAvatar-img {
+  height: 30px;
+  width: 30px;
+}
