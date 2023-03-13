@@ -8,7 +8,6 @@ const Header = () => {
       <div className="header">
         <div className="header__left">
           <ReorderIcon></ReorderIcon>
-          <h1>tarun</h1>
         </div>
       </div>
     </>
