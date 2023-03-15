@@ -27,6 +27,10 @@
   color: rgb(94, 94, 94);
   font-size: 12px;
 }
+.sidebaroptions:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+}
 
 .sidebaroptions--active {
   background-color: #fce8e6;
@@ -37,4 +41,5 @@
 .sidebaroptions--active svg {
   color: #d93025;
   font-weight: bold;
+  opacity: 1 !important;
 }
