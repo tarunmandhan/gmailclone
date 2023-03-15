@@ -13,6 +13,8 @@ import LabelIcon from "@mui/icons-material/Label";
 import DeleteIcon from "@mui/icons-material/Delete";
 import FindInPageIcon from "@mui/icons-material/FindInPage";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import VideocamIcon from "@mui/icons-material/Videocam";
+import KeyboardIcon from "@mui/icons-material/Keyboard";
 
 const Sidebar = () => {
   return (
@@ -39,6 +41,10 @@ const Sidebar = () => {
       <Sidebaroptions Icon={DeleteIcon} tittle="[Map]/Trash" number="325" />
       <Sidebaroptions Icon={FindInPageIcon} tittle="Documents" number="254" />
       <Sidebaroptions Icon={ExpandMoreIcon} tittle="More" number="225" />
+      <hr />
+      <h3 className="sidebaroptions__heading">Meet</h3>
+      <Sidebaroptions Icon={VideocamIcon} tittle="New meeting" />
+      <Sidebaroptions Icon={KeyboardIcon} tittle="Join a meeting" />
     </div>
   );
 };

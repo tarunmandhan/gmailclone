@@ -15,3 +15,8 @@
   letter-spacing: 0px !important;
 }
 
+.sidebaroptions__heading {
+  font-size: 15px;
+  margin: 0;
+  margin-left: 25px;
+}
