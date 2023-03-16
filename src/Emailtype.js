@@ -7,7 +7,7 @@ import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 const Emailtype = () => {
   return (
     <div className="emailtype">
-      <div className="emailtype__options">
+      <div className="emailtype__options emailtype__options--active">
         <InboxIcon />
         <p>Primary</p>
       </div>
