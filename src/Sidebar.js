@@ -40,7 +40,7 @@ const Sidebar = () => {
       <Sidebaroptions Icon={LabelIcon} tittle="Category" number="125" />
       <Sidebaroptions Icon={DeleteIcon} tittle="[Map]/Trash" number="325" />
       <Sidebaroptions Icon={FindInPageIcon} tittle="Documents" number="254" />
-      <Sidebaroptions Icon={ExpandMoreIcon} tittle="More" number="225" />
+      <Sidebaroptions Icon={ExpandMoreIcon} tittle="More" />
       <hr />
       <h3 className="sidebaroptions__heading">Meet</h3>
       <Sidebaroptions Icon={VideocamIcon} tittle="New meeting" />
