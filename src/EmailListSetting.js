@@ -10,7 +10,7 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 
 const EmailListSetting = () => {
   return (
-    <div classname="emaillist__settings">
+    <div className="emaillist__settings">
       <div className="emaillist__settingsLeft">
         <IconButton>
           <CheckBoxOutlineBlankIcon />
