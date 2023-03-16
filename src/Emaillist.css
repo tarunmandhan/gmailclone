@@ -7,4 +7,15 @@
   align-items: center;
   position: sticky;
   justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+}
+.emaillist__settings svg {
+  font-size: 19px;
+}
+.emaillist__settings p {
+  font-size: 14px;
+}
+.emaillist__settingsRight {
+  display: flex;
+  align-items: center;
 }
