@@ -1,0 +1,10 @@
+.emaillist {
+  display: flex;
+  flex-direction: column;
+}
+.emaillist__settings {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  justify-content: space-between;
+}
