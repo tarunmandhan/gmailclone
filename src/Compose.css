@@ -42,3 +42,27 @@
   background: #545454;
   cursor: pointer;
 }
+
+.compose__body {
+  display: flex;
+}
+.compose__bodyform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.compose__bodyform input,
+textarea {
+  width: 450px;
+  height: 40px;
+  outline: 0;
+  border: 0px;
+  /* border-bottom: 1px solid whitesmoke; */
+  box-shadow: inset 0 -1px 0 0 rgb(100 121 143/12%);
+  padding: 0 10px;
+  margin-left: 15px;
+}
+.compose__bodyform textarea {
+  height: auto;
+  padding: 10px;
+}

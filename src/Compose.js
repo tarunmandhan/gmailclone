@@ -28,7 +28,13 @@ const Compose = () => {
           <CloseIcon />
         </div>
       </div>
-      <div className="compose__body"></div>
+      <div className="compose__body">
+        <div className="compose__bodyform">
+            <input type="email" placeholder="Reciepents" />
+            <input type="text" placeholder="Subject" />
+            <textarea cols="30" rows="20"></textarea>
+        </div>
+      </div>
       <div className="compose__footer"></div>
     </div>
   );
