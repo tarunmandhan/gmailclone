@@ -9,7 +9,12 @@ const Emaillist = () => {
     <div className="emaillist">
       <EmailListSetting />
       <Emailtype />
-      <Emailbody />
+      <Emailbody
+        name="Tarun Mandhan"
+        subject="This is subject"
+        message="Hello tarun you have a message Hello tarun you have a message Hello tarun you have a message Hello tarun you have a message Hello tarun you have a message"
+        time="02:47 PM"
+      />
     </div>
   );
 };
