@@ -30,12 +30,30 @@ const Compose = () => {
       </div>
       <div className="compose__body">
         <div className="compose__bodyform">
-            <input type="email" placeholder="Reciepents" />
-            <input type="text" placeholder="Subject" />
-            <textarea cols="30" rows="20"></textarea>
+          <input type="email" placeholder="Reciepents" />
+          <input type="text" placeholder="Subject" />
+          <textarea cols="30" rows="20"></textarea>
         </div>
       </div>
-      <div className="compose__footer"></div>
+      <div className="compose__footer">
+        <div className="compose__footer__left">
+          <button>
+            Send <ArrowDropDownIcon />
+          </button>
+        </div>
+        <div className="compose__footer__right">
+          <FormatColorTextIcon />
+          <AttachFileIcon />
+          <LinkIcon />
+          <InsertEmoticonIcon />
+          <NoteAddIcon />
+          <PhotoIcon />
+          <PhonelinkLockIcon />
+          <CreateIcon />
+          <MoreVertIcon />
+          <DeleteIcon />
+        </div>
+      </div>
     </div>
   );
 };
