@@ -6,6 +6,7 @@ import Emaillist from "./Emaillist";
 import Compose from "./Compose";
 
 const App = () => {
+  const isMessageOpen = true;
   return (
     <>
       <div className="App">
@@ -14,7 +15,7 @@ const App = () => {
           <Sidebar />
           <Emaillist />
         </div>
-        <Compose />
+        {isMessageOpen && <Compose />}
       </div>
     </>
   );
