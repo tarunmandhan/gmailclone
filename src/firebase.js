@@ -10,6 +10,6 @@ const firebaseConfig = {
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
-const db = firebaseApp.firebase();
+const db = firebaseApp.firebase(); //database connection stabilished
 
-export{ db }
+export { db };
