@@ -14,8 +14,11 @@ import PhonelinkLockIcon from "@mui/icons-material/PhonelinkLock";
 import CreateIcon from "@mui/icons-material/Create";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import DeleteIcon from "@mui/icons-material/Delete";
+import { useDispatch } from "react-redux";
+import { closeSendMessage } from "./features/mailSlice";
 
 const Compose = () => {
+  const dispatch = useDispatch();
   return (
     <div className="compose">
       <div className="compose__header">
@@ -25,7 +28,7 @@ const Compose = () => {
         <div className="compose__header__right">
           <RemoveIcon />
           <OpenInFullIcon />
-          <CloseIcon />
+          <CloseIcon onClick={() => dispatch(closeSendMessage())} />
         </div>
       </div>
       <div className="compose__body">
